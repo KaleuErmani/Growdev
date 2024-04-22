@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+</head>
+<body>
+
+<style>
+    td,
+    th{
+        border: 1px solid black;
+        border-collapse: collapse;
+        width: 100px;
+    }
+
+    table {
+        border-collapse: collapse;
+    }
+ 
+
+</style>
+
+    <table>
+        <thead>
+             <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+             </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td align="center">4</td>
+                <td align="center">5</td>
+                <td align="center">6</td>
+            </tr> 
+
+            <tr>
+                <Td align="right">7</Td>
+                <Td align="right">8</Td>
+                <Td align="right">9</Td>
+            </tr>
+        </tbody>
+    </table>
+
+<br>
+<br>
+
+    <table>
+        <thead>
+             <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+             </tr>
+        </thead> 
+        <tr> 
+            <td align="center", colspan="3">4</td>
+            
+        </tr>
+        <tr>
+            <Td align="left">7</Td>
+            <Td align="left">8</Td>
+            <Td align="left">9</Td>
+        </tr>
+    </table>
+
+<br>
+<br>
+
+    <table>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td rowspan="3" align="center">3</td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">4</td>
+            </tr>
+            <tr>
+                <td style="text-align: right;">5</td>
+                <td style="text-align: right;">6</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>

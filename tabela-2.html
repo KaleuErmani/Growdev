@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    td,
+    th{
+        border: 1px solid black;
+        border-collapse: collapse;
+        width: 100px;
+        height: 100px;
+    }
+
+    table {
+        border-collapse: collapse;
+        width: 500px;
+    }
+
+    thead td {
+        height: 70px;
+    }
+     
+    tbody td {
+        height: 400px;
+    }
+    
+    tfoot td {
+        height: 30px;
+    }
+
+</style>
+
+<body>
+<table>
+    <thead>
+        <tr align="center">
+            <td colspan="2">Topo</td> 
+        </tr>
+    </thead> 
+
+    <tbody>
+        <tr>
+            <td align="center">Menu</td>
+            <td align="center" style="width: 70%;">conteudo</td>
+        </tr>
+    </tbody>
+
+    <tfoot>
+        <td colspan="2" align="center">rodapé</td>
+    </tfoot>
+</table>
+
+</body>
+</html>
