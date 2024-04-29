@@ -1,0 +1,65 @@
+body {
+    font-family: "roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    background-color: rgb(150, 147, 147);
+}
+
+pre {
+    color: blue
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 24px;
+  color: blue;
+}
+
+strong {
+  color: rgb(243, 4, 4);
+}
+
+mark {
+  color: rgb(7, 252, 27);
+}
+
+a {
+  color: blueviolet;
+  text-decoration: none;
+}
+
+table, tr, td, th{
+  width: 30vw;
+  border-collapse: collapse;
+  padding: 10px;
+  border: 1px solid red; 
+}
+
+th {
+  background-color: white;
+}
+
+td:nth-child(even) {
+  background-color: azure;
+}
+
+ul {
+  list-style-type:circle;
+}
+ol {
+  list-style-type: upper-alpha;
+}
+
+iframe {
+  width: 30vw;
+  height: 30vh;
+}
+
+caption {
+  margin-bottom: 10px;
+  border-bottom: 3px solid red;
+}
